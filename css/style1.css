@@ -1,0 +1,242 @@
+body {
+	background:gray;
+	width: 100%;
+	height: 100%;
+}
+
+
+#wrapper {
+	margin-left: auto;
+    margin-right: auto;
+	width: 95%;
+}
+ article {
+  text-align: center;
+
+  border:2px solid yellow;
+}
+table{
+	border-collapse: collapse;
+	border: 2px solid yellow;
+	 width: 100%;
+	 height: 100%;
+}
+th{
+	border: 2px solid yellow;
+}
+td{border: 2px solid yellow;}
+h2{
+	text-align: center;
+}
+#firstpicture {
+	filter: brightness(40%);
+	width: 100%;
+	height: 450px;
+}
+
+.mail {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	font-family: 'Arial' sans-serif;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+.newsLeft {
+  margin:20px;
+  padding:20px;
+  border: 1px dotted yellow;
+  min-height: 300px;
+}
+.newsLeft img {
+  float: left;
+  height: 300px;
+  width: 450px;
+  margin-right: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+	text-shadow: 5px 5px 5px black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #6C6C6C;
+}
+
+header {
+	position: relative;
+}
+
+.content {
+	 min-height: calc(100vh - 80px);
+	margin: 0 0 0 0;
+	background: gray;
+}
+
+#gerb {
+	position: absolute;
+	left: 2.5%;
+	bottom: 30%;
+	height: 200px;
+	width: 200px;
+}
+
+.culture_image {
+
+    border: 2px solid yellow; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+   
+}
+.culture_image img {
+  width:300px;
+  height: 300px;
+}
+.dost{
+	width:300px;
+  height: 300px;
+	   border: 2px solid yellow; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.dost+p{
+	width: 200px;
+ text-align: right;}
+
+.quote-town {
+	position: absolute;
+	top: 70%;
+	left: 60%;
+	font-family: 'Arial' sans-serif;
+	color: white;
+	text-shadow: 5px 5px 5px brown;
+}
+
+.content {
+	position: relative;
+}
+
+.sights {
+	width: 350px;
+	height: 200px;
+	border: double 6px black;
+
+}
+
+.table-container {
+	margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+}
+
+
+
+
+
+.sights-description {
+	float: right;
+	margin-left: 50px;
+	width: 925px
+}
+
+footer {
+	position: relative;
+	margin: 5px 0 0 0;
+	width: 100%;
+	background: #333;
+	color: white;
+}
+#map {
+  margin: 0 auto;
+  width:500px;
+}
+.telephone {
+	display: block;
+	padding: 10px;
+}
+
+.copyright {
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+
+h3 > a:hover {
+	text-decoration: underline;
+}
+
+
+.sights-table > .line {
+	
+}
+
+
+
+
+
+.sights-container {
+	border-bottom: outset;
+	border-bottom-color: black;
+}
+
+.history-header {
+	text-align: center;
+}
+
+.history-content {
+	padding: 25px;
+}
+
+.history-content > p {
+	text-indent: 50px;
+}
+
+.infrastructure-container {
+	padding: 20px;
+}
+
+.header-container {
+	text-align: center;
+}
+
+.formbounds-container {
+	padding-top: 10px;
+}
+
+.formbounds-label {
+	margin-left: 10px;
+}
+
+.formbounds {
+	padding: 0 25px;
+	margin: 0px auto; text-align: left;
+}
+
+.reason-bounds {
+
+	width: 500px;
+	height: 200px;
+}
