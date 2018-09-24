@@ -1,5 +1,6 @@
 body {
-	background:gray;
+	background: gray;
+	
 	width: 100%;
 	height: 100%;
 }
@@ -86,7 +87,7 @@ header {
 .content {
 	 min-height: calc(100vh - 80px);
 	margin: 0 0 0 0;
-	background: gray;
+	background-image: url("/img/Map1.png");
 }
 
 #gerb {
@@ -110,18 +111,29 @@ header {
   width:300px;
   height: 300px;
 }
+
+
+figure {
+  text-align: center;
+}
 .dost{
 	width:300px;
   height: 300px;
+
 	   border: 2px solid yellow; /* Рамка вокруг фотографии */
     padding: 15px; /* Расстояние от картинки до рамки */
     background: #666; /* Цвет фона */
     margin-right: 10px; /* Отступ справа */
     margin-bottom: 10px; /* Отступ снизу */
 }
+
 .dost+p{
 	width: 200px;
  text-align: right;}
+.dost:hover{
+	background-color: yellow;
+
+}
 
 .quote-town {
 	position: absolute;
